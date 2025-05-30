@@ -22,6 +22,9 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>Bug Blaster</h1>
+        <div className="description">
+          <p>Track and manage your project issues efficiently. Create tickets, set priorities, and keep your development workflow organized.</p>
+        </div>
         <TicketForm
           dispatch={dispatch}
           editingTicket={state.editingTicket}
